@@ -7,7 +7,6 @@ let windOutput = document.getElementById("windOutput");
 let humiOutput = document.getElementById("humiOutput");
 const apiKey = "3045dd712ffe6e702e3245525ac7fa38";
 let imageStatus = document.getElementById("status");
-let perview = document.getElementById("perview");
 
 function convertToCel(value) {
   return (value - 273.15).toFixed(0);
@@ -17,8 +16,6 @@ function display() {
   let showResult = document.getElementById("showResult");
   showResult.style.display = "block";
   cityOutput.style.display = "block";
-  perview.style.display = "none";
-
 }
 
 async function getWeather() {
@@ -97,7 +94,6 @@ function weatherStatus(data) {
 
 function keyPress() {
   if (event.which === 13) {
-    perview.style.display = "none";
     getWeather();
     cityInput.value = "";
   }

@@ -20,21 +20,6 @@
   gap: 2px;
   position: relative;
 }
-.perview {
-  width: 450px;
-  height: 500px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  bottom: 72px;
-}
-.perview > img {
-  width: 458px;
-  height: 505px;
-  border-radius: 0 0 6px 6px;
-  object-fit: cover;
-}
 .userInput {
   width: 30%;
   height: 80px;
@@ -44,6 +29,7 @@
   gap: 20px;
   background-color: #001524;
   border-radius: 6px 6px 0 0;
+  user-select: none;
 }
 input {
   width: 200px;
@@ -195,12 +181,12 @@ button:hover {
 }
 p.ds {
   width: 100%;
-  margin-top: -30px;
-  padding-left: 15px;
   font-size: 10px;
   text-align: center;
   user-select: none;
   color: black;
+  position: absolute;
+  bottom: 10px;
 }
 p.ds:hover {
   font-weight: bold;
