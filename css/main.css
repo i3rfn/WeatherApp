@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+@font-face {
+  font-family: poppins;
+  src: url(../media/Poppins-Regular_2.woff);
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: #3b4968;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  position: relative;
+}
+.perview {
+  width: 450px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 72px;
+}
+.perview > img {
+  width: 458px;
+  height: 505px;
+  border-radius: 0 0 6px 6px;
+  object-fit: cover;
+}
+.userInput {
+  width: 30%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #001524;
+  border-radius: 6px 6px 0 0;
+}
+input {
+  width: 200px;
+  height: 40px;
+  border: unset;
+  outline: unset;
+  border-radius: 4px;
+  padding-left: 15px;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+input:focus {
+  background-color: #d8d8d8;
+  outline: unset;
+}
+button {
+  width: 100px;
+  height: 40px;
+  background-color: #352f44;
+  border: unset;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  transition: all 300ms linear;
+}
+button:hover {
+  width: 120px;
+  background-color: #3b4968;
+}
+.main {
+  width: 30%;
+  height: 70vh;
+  background-color: #001524;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0px 0px 6px 6px;
+  user-select: none;
+}
+.showResult {
+  width: 100%;
+  height: inherit;
+  display: none;
+}
+.display {
+  width: 100%;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.status {
+  width: 100%;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.status > img {
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+  transform: scale(3);
+  z-index: 999;
+}
+.wrapper {
+  width: 90%;
+  height: fit-content;
+}
+.dis1 {
+  width: 100%;
+  height: 130px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+}
+.dis2 {
+  width: 100%;
+  height: 130px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+  margin-top: -30px;
+}
+#cityOutput {
+  width: 100%;
+  height: 60px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 70px;
+  color: white;
+  display: none;
+  text-transform: capitalize;
+}
+#descOutput {
+  width: 48%;
+  height: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: #352f44;
+  color: white;
+  text-transform: capitalize;
+}
+#tempOutput {
+  width: 48%;
+  height: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  padding: 15px;
+  border-radius: 15px;
+  color: white;
+  background-color: #352f44;
+}
+#windOutput {
+  width: 48%;
+  height: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  padding: 15px;
+  border-radius: 15px;
+  color: white;
+  background-color: #352f44;
+}
+#humiOutput {
+  width: 48%;
+  height: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  padding: 15px;
+  border-radius: 15px;
+  color: white;
+  background-color: #352f44;
+}
+p.ds {
+  width: 100%;
+  margin-top: -30px;
+  padding-left: 15px;
+  font-size: 10px;
+  text-align: center;
+  user-select: none;
+  color: black;
+}
+p.ds:hover {
+  font-weight: bold;
+}

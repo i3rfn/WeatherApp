@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WeatherApp</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="perview" class="perview">
+        <img src="./media/rainy800.gif" alt="" />
+      </div>
+      <section id="userInput" class="userInput">
+        <input type="text" id="cityInput" placeholder="Enter city..." />
+        <button id="submit">Submit</button>
+      </section>
+      <section class="main">
+        <div id="showResult" class="showResult">
+          <section class="display">
+            <div id="cityOutput"></div>
+            <section class="status" id="status"></section>
+            <section id="wrapper" class="wrapper">
+              <div class="dis1">
+                <div id="descOutput"></div>
+                <div id="tempOutput"></div>
+              </div>
+              <div class="dis2">
+                <div id="windOutput"></div>
+                <div id="humiOutput"></div>
+              </div>
+            </section>
+          </section>
+        </div>
+      </section>
+    </div>
+    <p class="ds">"Designed by Erfan Qane"</p>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
