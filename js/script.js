@@ -54,40 +54,40 @@ function weatherStatus(data) {
   switch (data) {
     case "sunny":
     case "Clear":
-      imageStatus.innerHTML = `<img src="../media/animated/day.svg">`;
+      imageStatus.innerHTML = `<img src="./media/day.svg">`;
       break;
     case "Rain":
-      imageStatus.innerHTML = `<img src="../media/animated/rainy.svg">`;
+      imageStatus.innerHTML = `<img src="./media/rainy.svg">`;
       break;
     case "Haze":
-      imageStatus.innerHTML = `<img src="../media/animated/haze.svg">`;
+      imageStatus.innerHTML = `<img src="./media/haze.svg">`;
       break;
     case "Clouds":
-      imageStatus.innerHTML = `<img src="../media/animated/cloudy.svg">`;
+      imageStatus.innerHTML = `<img src="./media/cloudy.svg">`;
       break;
     case "Snow":
-      imageStatus.innerHTML = `<img src="../media/animated/snowy.svg">`;
+      imageStatus.innerHTML = `<img src="./media/snowy.svg">`;
       break;
     case "Fog":
-      imageStatus.innerHTML = `<img src="../media/animated/fog.svg">`;
+      imageStatus.innerHTML = `<img src="./media/fog.svg">`;
       break;
     case "Night":
-      imageStatus.innerHTML = `<img src="../media/animated/night.svg">`;
+      imageStatus.innerHTML = `<img src="./media/night.svg">`;
       break;
     case "Thunder":
-      imageStatus.innerHTML = `<img src="../media/animated/thunder.svg">`;
+      imageStatus.innerHTML = `<img src="./media/thunder.svg">`;
       break;
     case "Mist":
-      imageStatus.innerHTML = `<img src="../media/animated/mist.svg">`;
+      imageStatus.innerHTML = `<img src="./media/mist.svg">`;
       break;
     case "Dust":
-      imageStatus.innerHTML = `<img src="../media/animated/dust.svg">`;
+      imageStatus.innerHTML = `<img src="./media/dust.svg">`;
       break;
     case "Hail":
-      imageStatus.innerHTML = `<img src="../media/animated/hail.svg">`;
+      imageStatus.innerHTML = `<img src="./media/hail.svg">`;
       break;
     case "Hurricane":
-      imageStatus.innerHTML = `<img src="../media/animated/hurricane.svg">`;
+      imageStatus.innerHTML = `<img src="./media/hurricane.svg">`;
       break;
   }
 }
